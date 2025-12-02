@@ -1,4 +1,6 @@
+import React from 'react';
 import styles from './todo.module.css';
+
 
 const TodoForm=({toInput, setTodoInput, onsubmit})=>{
     const setInput=(e)=>{
@@ -16,5 +18,6 @@ const TodoForm=({toInput, setTodoInput, onsubmit})=>{
         </div>
     )
 }
+
 
 export default TodoForm
