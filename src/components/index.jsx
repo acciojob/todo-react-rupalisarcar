@@ -1,7 +1,7 @@
 import TodoForm from './todoForm';
 import ToDoList from './toDoList';
 import styles from './todo.module.css';
-import { useState } from 'react';
+import React,{ useState } from 'react';
 
 const ToDo=()=>{
     const [toInput, setTodoInput]= useState({title:''})
@@ -21,5 +21,6 @@ const ToDo=()=>{
         </>
     )
 } 
+
 
 export default ToDo;
