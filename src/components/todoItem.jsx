@@ -1,4 +1,5 @@
-import styles from './todo.module.css'
+import React from 'react';
+import styles from './todo.module.css';
 const TodoItem=({todoDetails, onDelete})=>{
     const deleteList = (itemId) =>{
         onDelete(itemId)
@@ -12,5 +13,6 @@ const TodoItem=({todoDetails, onDelete})=>{
         </>
     )
 }
+
 
 export default TodoItem;
