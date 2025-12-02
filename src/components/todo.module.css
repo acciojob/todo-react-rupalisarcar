@@ -1,0 +1,27 @@
+.container{
+    height: 100%;
+    margin:10px auto;
+    text-align: center;
+}
+h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+.inputBox{
+    max-width: 200px;
+    margin-right: 5px;
+    padding: 4px;
+}
+.btn{
+    padding: 4px 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.toDolist{
+    width:20%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin: 50px auto;
+}
