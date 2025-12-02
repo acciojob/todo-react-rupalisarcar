@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import styles from './todo.module.css';
 import TodoItem from "./todoItem";
 
@@ -24,4 +24,5 @@ const ToDoList=({toDolist,SetToDoList})=>{
         </>
     )
 }
+
 export default ToDoList
