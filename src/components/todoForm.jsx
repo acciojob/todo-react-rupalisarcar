@@ -13,7 +13,7 @@ const TodoForm=({toInput, setTodoInput, onsubmit})=>{
 
     return(
         <div>
-            <input type='text' className={styles.inputBox} value={toInput.title} onChange={setInput}></input>
+            <input type='text' className={styles.inputBox} onChange={setInput}></input>
             <button onClick={addToDoList} className={styles.btn}>Add Todo</button>
         </div>
     )
@@ -21,3 +21,4 @@ const TodoForm=({toInput, setTodoInput, onsubmit})=>{
 
 
 export default TodoForm
+
